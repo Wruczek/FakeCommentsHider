@@ -15,6 +15,8 @@ Uwaga: Te repository nie służy do udostępniania kodu. Znajduje się tu baza d
 
 Linki:
 
+[Instrukcja instalacji wtyczki](https://github.com/Wruczek/FakeCommentsHider/blob/master/INSTALACJA.md)
+
 [Wtyczka w Chrome Store: COMMING SOON](#)
 
 [Zgłaszanie błędów, zapytania, zgłaszanie profili botów do zbanowania itp.](https://github.com/Wruczek/FakeCommentsHider/issues)
