@@ -25,6 +25,7 @@ Wspieranie kanały:
 
  * [izak - issacc87](https://www.youtube.com/user/issacc87)
  * [reZigiusz](https://www.youtube.com/channel/UCLLNPuvRGKxSczJcxlOiMXg)
+ * [SA Wardega](https://www.youtube.com/channel/UCdZwMpK-iWqCos46xPscDeg)
 
 Próbuje objąć ochroną jak najwięcej polskich kanałów, jednak jest to ciężkie do zrobienia. Możesz mi pomóc przesyłając kanały ka których grasują takie boty.
 
