@@ -25,7 +25,7 @@ var onReportClick = function(e) {
 		
 		window.open("https://github.com/Wruczek/FakeCommentsHider/issues/new?title=" + encodeURIComponent(title) + "&body=" + body,'_blank');
 		
-		$(this).prop('disabled', true).html('<span style="font-color: red;">ZGŁOSIŁEŚ TEN PROFIL. DZIĘKUJE.</span>').addClass('hide-fedora-reported');
+		$(this).prop('disabled', true).html('<span style="font-color: red;">ZGŁOSIŁEŚ TEN PROFIL. DZIĘKUJĘ.</span>').addClass('hide-fedora-reported');
 };
 
 var execute = function() {
