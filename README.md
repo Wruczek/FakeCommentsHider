@@ -35,8 +35,6 @@ Próbuje objąć ochroną jak najwięcej polskich kanałów, jednak jest to cię
 
 ### ToDo
 - [ ] Automatyczne zgłaszanie za spam przy ukrywaniu komentarza
-- [ ] Zmiana struktury plików. (przeniesienie plikow z informacjami dla wtyczki do folderu DATA)
-- [ ] Poprawienie przesyłania zgłoszeń
 
 ### Dotacja
 
