@@ -1,6 +1,6 @@
 # Instrukcja instalacji wtyczki
 
-1. Ściągnij najnowszą wersję wtyczki [tutaj](https://github.com/Wruczek/FakeCommentsHider/releases/download/release/FakeCommentsHider.zip).
+1. Ściągnij najnowszą wersję wtyczki [tutaj](https://github.com/Wruczek/FakeCommentsHider/releases/download/release2/FakeCommentsHider_0.2.zip).
 
 2. Rozpakuj pobrane archiwum.
 
