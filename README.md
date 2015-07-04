@@ -1,9 +1,9 @@
-# FakeCommentsHider
+## FakeCommentsHider
 Wtyczka do przegladarki Chrome która usuwa nieprawdziwe komentarze botów podszywajacych się pod znane osoby i proszące o skorzystanie z usług SMS premium. Baza danych banowanych profili botów jest uaktualniana na bieżąco.
 
 [![Kliknij by otworzyć w pełnym wymiarze](http://i.imgur.com/WjfCyh9.png)](http://i.imgur.com/WjfCyh9.png)
 
-Przykłady niechcianych komentarzy które są usuwane:
+### Przykłady niechcianych komentarzy które są usuwane
 
 ```
 Wiecej informacji w tym poscie https://xxx.com - KARAMBIT TIGER TOOTH, M4A1-S Cyrex Ak-47 Vulcan  USP-S Orion AWP Asiimov #todlawas !!
@@ -13,7 +13,7 @@ https://xxx.com - Kochani tutaj giveway dla was ode mnie :) Asiimov, Vulcan, Cyr
 Wiecej informacji w tym poscie https://xxx.com - Karambit Cyrex Vulcan Orion Asiimov juz teraz! :) !#!#!%^^
 ```
 
-Linki:
+### Linki
 
 * [Instrukcja instalacji wtyczki](https://github.com/Wruczek/FakeCommentsHider/blob/master/INSTALACJA.md)
 
@@ -21,7 +21,7 @@ Linki:
 
 * [Zgłaszanie błędów, zapytania, zgłaszanie profili botów do zbanowania itp.](https://github.com/Wruczek/FakeCommentsHider/issues)
 
-Wspieranie kanały:
+### Wspieranie kanały
 
 Wtyczka działa na całym YouTube, ale dodatkowo chronione są kanały gdzie spamerów jest najwięcej.
 
@@ -32,7 +32,17 @@ Wtyczka działa na całym YouTube, ale dodatkowo chronione są kanały gdzie spa
 
 Próbuje objąć ochroną jak najwięcej polskich kanałów, jednak jest to ciężkie do zrobienia. Możesz mi pomóc przesyłając kanały ka których grasują takie boty.
 
+### Dotacja
+
 Jeśli lubisz tą wtyczkę zawsze możesz wesprzeć mnie dotacją [przez PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9PL5J7ULZQYJQ) lub [wysłać mi jakieś skiny](https://steamcommunity.com/tradeoffer/new/?partner=126623086&token=V3eGov0E). Za wszystkie dotacje bardzo dziękuje! :)
+
+### Podziękowania
+
+- sim_codymartin - dobry pomysł na ulepszenie działania wtyczki. Dzięki!
+
+- Chocolate_Guy - za dotację. Może nie dużo warta, ale liczy się gest! Dzięki!
+
+- Widzom YouTuberów. Za ciepłe przyjęcie wtyczki i masę podziękowań! Dzięki!
 
 Kontakt z twórcą: wruczekcsgo MAŁPA gmail KROPKA com
 
