@@ -1,19 +1,31 @@
-var data_url = 'https://raw.githubusercontent.com/Wruczek/FakeCommentsHider/master/profilesAndWords.txt';
-var checkforupdates_url = 'https://raw.githubusercontent.com/Wruczek/FakeCommentsHider/master/version.txt';
+var data_url = 'https://raw.githubusercontent.com/Wruczek/FakeCommentsHider/master/data/profilesAndWords.txt';
+var checkforupdates_url = 'https://raw.githubusercontent.com/Wruczek/FakeCommentsHider/master/data/version.txt';
 var banned_profiles;
 var banned_words;
 var removed = 1;
-var version = 0.1;
+var version = 0.2;
 
 var onReportClick = function(e) {
 		var profileId = $(this).data("profileId"),
-			comment = $(this).data("comment").trim(),
-			url = document.location.href;
+			comment = $(this).data("comment"),
+			url = document.location.href,
+			commenturl = url + "&lc=" + $(this).data("commenturl"),
+			username = $(this).data("username");
 		
-		window.open("https://github.com/Wruczek/FakeCommentsHider/issues/new?title=Zg%C5%82oszenie%20podszywaj%C4%85cego%20si%C4%99%20profilu&body="
-				+ "Chcę zgłosić podszywający się profil.%0A%0AInformacje:%0AID profilu: " + profileId + "%0APozostawiony komentarz: " + comment + "%0AURL strony: " + url,'_blank');
+		// Znak nowej linii
+		var nl = "%0A";
 		
-		$(this).prop('disabled', true).html('<span style="font-color: red;">ZGŁOSIŁEŚ TEN PROFIL</span>').addClass('hide-fedora-reported');
+		var title = "Zgłoszenie podszywającego się profilu";
+		var body = "Chcę zgłosić podszywający się profil \"" + encodeURIComponent(username) + "\"" + nl + nl + 
+				"Informacje:" + nl + 
+				"ID profilu: " + profileId + nl + 
+				"Pozostawiony komentarz: " + encodeURIComponent(comment) + nl + 
+				"URL strony: " + encodeURIComponent(url) + nl +
+				"URL komentarza: " + encodeURIComponent(commenturl);
+		
+		window.open("https://github.com/Wruczek/FakeCommentsHider/issues/new?title=" + encodeURIComponent(title) + "&body=" + body,'_blank');
+		
+		$(this).prop('disabled', true).html('<span style="font-color: red;">ZGŁOSIŁEŚ TEN PROFIL. DZIĘKUJE.</span>').addClass('hide-fedora-reported');
 };
 
 var execute = function() {
@@ -21,7 +33,9 @@ var execute = function() {
 	$(".comment-item").each(function(index, element) {
 		var el = $(element),
 			profileId = el.attr('data-aid'),
-			comment = el.find('.comment-text-content').first().text(),
+			comment = el.find('.comment-text-content').first().text().trim(),
+			commenturl = el.attr('data-cid'),
+			username = el.attr('data-name'),
 			thisEl = $(this);
 		
 		if(banned_profiles.contains(profileId) || checkComment(comment)) {
@@ -38,14 +52,16 @@ var execute = function() {
 			$("#FakeCommentsHiderStats").html(removed);
 		} else if(!thisEl.hasClass("hide-fedora-tagged")) {
 			thisEl.addClass("hide-fedora-tagged");
-			thisEl
-				.find('.footer-button-bar')
+			
+			thisEl.find('.footer-button-bar')
 				.first()
 				.after('<button type="button" class="hide-fedora-report-btn">ZGŁOŚ PODSZYWAJĄCY SIĘ PROFIL</button>');
 
 			thisEl.find('.hide-fedora-report-btn')
 				.data('profileId', profileId)
 				.data('comment', comment)
+				.data('commenturl', commenturl)
+				.data('username', username)
 				.click(onReportClick);
 		}
 	});
