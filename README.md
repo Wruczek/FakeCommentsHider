@@ -11,8 +11,6 @@ https://xxx.com - Kochani tutaj giveway dla was ode mnie :) Asiimov, Vulcan, Cyr
 Wiecej informacji w tym poscie https://xxx.com - Karambit Cyrex Vulcan Orion Asiimov juz teraz! :) !#!#!%^^
 ```
 
-Uwaga: Te repository nie służy do udostępniania kodu. Znajduje się tu baza danych wtyczki oraz zgłaszanie błędów. Jeśli ktoś chce kod, może rozpakować wtyczkę. Licencja: MIT.
-
 Linki:
 
 * [Instrukcja instalacji wtyczki](https://github.com/Wruczek/FakeCommentsHider/blob/master/INSTALACJA.md)
@@ -37,3 +35,4 @@ Jeśli lubisz tą wtyczkę zawsze możesz wesprzeć mnie dotacją [przez PayPal]
 Kontakt z twórcą: wruczekcsgo MAŁPA gmail KROPKA com
 
 Wykorzystano fragmenty kodu źródłowego wtyczki [hidefedora](https://github.com/hadalin/chrome-hidefedora) autorstwa Hadalin.
+Licencja kodu źródłowego: MIT.
