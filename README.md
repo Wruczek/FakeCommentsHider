@@ -21,6 +21,13 @@ Linki:
 
 * [Zgłaszanie błędów, zapytania, zgłaszanie profili botów do zbanowania itp.](https://github.com/Wruczek/FakeCommentsHider/issues)
 
+Wspieranie kanały:
+
+ * [izak - issacc87](https://www.youtube.com/user/issacc87)
+ * [reZigiusz](https://www.youtube.com/channel/UCLLNPuvRGKxSczJcxlOiMXg)
+
+Próbuje objąć ochroną jak najwięcej polskich kanałów, jednak jest to ciężkie do zrobienia. Możesz mi pomóc przesyłając kanały ka których grasują takie boty.
+
 Jeśli lubisz tą wtyczkę zawsze możesz wesprzeć mnie dotacją [przez PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9PL5J7ULZQYJQ) lub [wysłać mi jakieś skiny](https://steamcommunity.com/tradeoffer/new/?partner=126623086&token=V3eGov0E). Za wszystkie dotacje bardzo dziękuje! :)
 
 Kontakt z twórcą: wruczekcsgo MAŁPA gmail KROPKA com
