@@ -1,0 +1,23 @@
+{
+  "name": "FakeCommentsHider by Wruczek",
+  "version": "0.1",
+  "description": "Usuwa nieprawdziwe komentarze, często podszywające się pod znane osoby i proszące o skorzystanie z usług SMS premium.",
+  "homepage_url": "https://github.com/Wruczek/FakeCommentsHider",
+  "author": "Wruczek, based on Hadalin`s hidefedora",
+  "manifest_version": 2,
+  "content_scripts": [
+  {
+    "matches": [
+      "*://www.youtube.com/*"
+    ],
+    "js": [
+      "jquery.min.js",
+      "content.js"
+    ],
+	"css": [
+        "content.css"
+    ],
+    "run_at": "document_end"
+  }
+  ]
+}
