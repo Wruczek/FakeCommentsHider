@@ -8,6 +8,6 @@
   - Otwórz nową kartę i w pasku adresu wpisz chrome://extensions
   - LUB Wejdź w: Menu > Opcje > Rozszerzenia (po lewej stronie)
 
-4. Przeciągnij rozpakowany plik na stronę z rozszeżeniami.
+4. Przeciągnij rozpakowany plik na stronę z rozszeżeniami i zatwierdź klikając "Dodaj".
 
 5. Opcjonalnie: zrestartuj przeglądarkę.
