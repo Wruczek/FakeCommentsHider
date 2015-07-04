@@ -1,7 +1,7 @@
 # FakeCommentsHider
 Wtyczka do przegladarki Chrome która usuwa nieprawdziwe komentarze botów podszywajacych się pod znane osoby i proszące o skorzystanie z usług SMS premium. Baza danych banowanych profili botów jest uaktualniana na bieżąco.
 
-[![Kliknij by otworzyć w pełnym wymiarze](http://i.imgur.com/YBlYrTS.png)](http://i.imgur.com/YBlYrTS.png)
+[![Kliknij by otworzyć w pełnym wymiarze](http://i.imgur.com/WjfCyh9.png)](http://i.imgur.com/WjfCyh9.png)
 
 Przykłady niechcianych komentarzy które są usuwane:
 
