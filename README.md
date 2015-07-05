@@ -15,7 +15,7 @@ Wiecej informacji w tym poscie https://xxx.com - Karambit Cyrex Vulcan Orion Asi
 
 ### Linki
 
-* [Instrukcja instalacji wtyczki](https://github.com/Wruczek/FakeCommentsHider/blob/master/INSTALACJA.md)
+* [Instrukcja instalacji wtyczki](https://github.com/Wruczek/FakeCommentsHider/wiki/Instalacja)
 
 * [Wtyczka w Chrome Store: COMMING SOON](#)
 
