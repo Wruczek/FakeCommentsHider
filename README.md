@@ -34,6 +34,7 @@ Wtyczka działa na całym YouTube, ale dodatkowo chronione są kanały gdzie spa
 Próbuje objąć ochroną jak najwięcej polskich kanałów, jednak jest to ciężkie do zrobienia. Możesz mi pomóc przesyłając kanały ka których grasują takie boty.
 
 ### ToDo
+- [ ] Wysłanie wtyczki do Chrome Web Store
 - [ ] Automatyczne zgłaszanie za spam przy ukrywaniu komentarza
 - [ ] Wersja dla Firefoxa
 
