@@ -37,6 +37,7 @@ Próbuje objąć ochroną jak najwięcej polskich kanałów, jednak jest to cię
 - [ ] Wysłanie wtyczki do Chrome Web Store
 - [ ] Automatyczne zgłaszanie za spam przy ukrywaniu komentarza
 - [ ] Wersja dla Firefoxa
+- [ ] Jeśli nick autora komentarza będzie równa nickowi znanego YouTubera (np. izak LIVE) i nie będzie posiadać klasy channel-owner (czyli niebieskawe tło na nicku w komentarzu) to zostanie on oznaczony jako potencjalnie nieprawdziwy komentarz i zostanie ukryty. Będzie możliwość pokazania go.
 
 ### Dotacja
 
