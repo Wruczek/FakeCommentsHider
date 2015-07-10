@@ -49,6 +49,8 @@ Jeśli lubisz tą wtyczkę zawsze możesz wesprzeć mnie dotacją [przez PayPal]
 
 - Chocolate_Guy - za dotację. Może nie dużo warta, ale liczy się gest! Dzięki!
 
+- WillekV - za dotację. Może nie dużo warta, ale liczy się gest! Dzięki!
+
 - Widzom YouTuberów. Za ciepłe przyjęcie wtyczki i masę podziękowań! Dzięki!
 
 Kontakt z twórcą: wruczekcsgo MAŁPA gmail KROPKA com
