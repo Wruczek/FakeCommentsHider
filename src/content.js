@@ -4,7 +4,7 @@ var banned_profiles;
 var banned_words;
 var original_channels;
 var removed = 1;
-var version = 0.3;
+var version = 0.4;
 
 var onReportClick = function(e) {
 		var profileId = $(this).data("profileId"),
@@ -36,7 +36,7 @@ var execute = function() {
 			profileId = el.attr('data-aid'),
 			comment = el.find('.comment-text-content').first().text().trim(),
 			commenturl = el.attr('data-cid'),
-			username = el.attr('data-name'),
+			username = el.attr('data-name').replace("í", "i").replace("Í", "i"),
 			thisEl = $(this);
 		
 		if(checkProfile(profileId, username, comment, thisEl) || checkComment(comment)) {
