@@ -2,8 +2,9 @@ var data_url = 'https://raw.githubusercontent.com/Wruczek/FakeCommentsHider/mast
 var checkforupdates_url = 'https://raw.githubusercontent.com/Wruczek/FakeCommentsHider/master/data/version.txt';
 var banned_profiles;
 var banned_words;
+var original_channels;
 var removed = 1;
-var version = 0.2;
+var version = 0.3;
 
 var onReportClick = function(e) {
 		var profileId = $(this).data("profileId"),
@@ -38,7 +39,7 @@ var execute = function() {
 			username = el.attr('data-name'),
 			thisEl = $(this);
 		
-		if(banned_profiles.contains(profileId) || checkComment(comment)) {
+		if(checkProfile(profileId, username, comment, thisEl) || checkComment(comment)) {
 			
 			console.log(profileId + ": " + comment);
 			
@@ -72,6 +73,7 @@ $(function() {
 	$.getJSON(data_url, function(res) {
 		banned_profiles = res.profiles;
 		banned_words = res.words;
+		original_channels = res.originalChannels;
 	});
 	
 	// Wsparcie dla nowego YT (ładowanie strony przez AJAX bez przeładowywanie jej)
@@ -93,6 +95,29 @@ var checkComment = function(comment) {
 		if(comment.includes(banned_words[i])) {
 			console.log("Niedozwolony string " + banned_words[i] + " w: " + comment);
 			return true;
+		}
+	}
+	return false;
+}
+
+var checkProfile = function(profileId, username, comment, element) {
+	if(profileId == null || username == null)
+		return false;
+	
+	if(banned_profiles.contains(profileId))
+		return true;
+	
+	if(element.hasClass("channel-owner"))
+		return false;
+	
+	var channelLink = element.find('a').first().attr("href").split("/")[2];
+	
+	for (i = 0; i < original_channels.length; i++) {
+		var JSONprofileName = original_channels[i][0];
+		var JSONprofileId = original_channels[i][1];
+		if(username.toUpperCase().includes(JSONprofileName.toUpperCase())) {
+			console.log(username + " == " + JSONprofileName + ", zbanowano " + profileId + ", " + comment);
+			return JSONprofileId != channelLink;
 		}
 	}
 	return false;
@@ -125,7 +150,7 @@ var scan = function() {
 			execute();
 			
 			counter++;
-			if(counter === 24) {
+			if(counter === 10) {
 				clearInterval(interval);
 			}
 		}, 250);
@@ -142,6 +167,8 @@ var checkForUpdates = function() {
 		}
 	});
 }
+
+// Metody wspomagajace
 
 Array.prototype.contains = function(obj) {
     var i = this.length;
