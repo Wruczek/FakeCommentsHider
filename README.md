@@ -32,6 +32,7 @@ Wtyczka działa na całym YouTube, ale dodatkowo chronione są kanały gdzie spa
  * [wideoprezentacje](https://www.youtube.com/channel/UCViVL2aOkLWKcFVi0_p6u6g)
  * [Gimper](https://www.youtube.com/channel/UCFBH3Bdhgh3_cCToEQsUp6Q)
  * [5 sposobów na...](https://www.youtube.com/user/5SposobowNa)
+ * [Mandzio](https://www.youtube.com/user/xMandzio)
 
 Próbuje objąć ochroną jak najwięcej polskich kanałów, jednak jest to ciężkie do zrobienia. Możesz mi pomóc przesyłając kanały ka których grasują takie boty.
 
