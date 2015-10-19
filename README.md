@@ -56,7 +56,7 @@ Jeśli lubisz tą wtyczkę zawsze możesz wesprzeć mnie dotacją [przez PayPal]
 
 - Widzom YouTuberów. Za ciepłe przyjęcie wtyczki i masę podziękowań! Dzięki!
 
-Kontakt z twórcą: wruczekcsgo MAŁPA gmail KROPKA com
+Kontakt z twórcą: wruczekk MAŁPA gmail KROPKA com
 
 Wykorzystano fragmenty kodu źródłowego wtyczki [hidefedora](https://github.com/hadalin/chrome-hidefedora) autorstwa Hadalin.
 Licencja kodu źródłowego: MIT.
