@@ -1,25 +1,14 @@
 ## FakeCommentsHider
-Wtyczka do przegladarki Chrome która usuwa nieprawdziwe komentarze botów podszywajacych się pod znane osoby i proszące o skorzystanie z usług SMS premium. Baza danych profili botów oraz zakazanych słów jest uaktualniana na bieżąco.
+Wtyczka do przegladarki Chrome która usuwa nieprawdziwe komentarze botów oraz naciągaczy podszywajacych się pod znane osoby i proszące o skorzystanie z usług SMS premium. Baza danych profili botów jest uaktualniana na bieżąco.
 
-[![Kliknij by otworzyć w pełnym wymiarze](http://i.imgur.com/WjfCyh9.png)](http://i.imgur.com/WjfCyh9.png)
-[![Kliknij by otworzyć w pełnym wymiarze](http://i.imgur.com/3eSbuVa.png?1)](http://i.imgur.com/3eSbuVa.png?1)
+[![Kliknij by otworzyć w pełnym wymiarze](http://i.imgur.com/76K1rHl.png)](http://i.imgur.com/76K1rHl.png)
 
-### Przykłady niechcianych komentarzy które są usuwane
-
-```
-Wiecej informacji w tym poscie https://xxx.com - KARAMBIT TIGER TOOTH, M4A1-S Cyrex Ak-47 Vulcan  USP-S Orion AWP Asiimov #todlawas !!
-
-https://xxx.com - Kochani tutaj giveway dla was ode mnie :) Asiimov, Vulcan, Cyrexy, Redline, Elite Build, Kosy  i wiele innych :) Widzowie to dla was. Wbijajcie i wybierzcie coś fajnego dla siebie #skins4you <3 @!!@#$$
-
-Wiecej informacji w tym poscie https://xxx.com - Karambit Cyrex Vulcan Orion Asiimov juz teraz! :) !#!#!%^^
-```
+***
 
 ### Linki
-
+* [Przykłady niechcianych komentarzy które są usuwane](https://gist.github.com/Wruczek/ce5025adc07e34fdd164)
 * [Instrukcja instalacji wtyczki](https://github.com/Wruczek/FakeCommentsHider/wiki/Instalacja)
-
 * [Wtyczka w Chrome Store: COMMING SOON](#)
-
 * [Zgłaszanie błędów, zapytania, zgłaszanie profili botów do zbanowania itp.](https://github.com/Wruczek/FakeCommentsHider/issues)
 
 ### Wspieranie kanały
@@ -50,9 +39,9 @@ Jeśli lubisz tą wtyczkę zawsze możesz wesprzeć mnie dotacją [przez PayPal]
 
 - sim_codymartin - dobry pomysł na ulepszenie działania wtyczki. Dzięki!
 
-- Chocolate_Guy - za dotację. Może nie dużo warta, ale liczy się gest! Dzięki!
+- Chocolate_Guy - za dotację. Dzięki!
 
-- WillekV - za dotację. Może nie dużo warta, ale liczy się gest! Dzięki!
+- WillekV - za dotację. Dzięki!
 
 - Widzom YouTuberów. Za ciepłe przyjęcie wtyczki i masę podziękowań! Dzięki!
 
