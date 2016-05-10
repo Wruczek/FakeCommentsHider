@@ -1,6 +1,8 @@
 ## FakeCommentsHider
 Wtyczka do przegladarki Chrome która usuwa nieprawdziwe komentarze botów oraz naciągaczy podszywajacych się pod znane osoby i proszące o skorzystanie z usług SMS premium. Baza danych profili botów jest uaktualniana na bieżąco.
 
+<h4 align="center">Z powodu zakończenia się spamu botów na polskim YouTube, projekt zostaje porzucony.</h4>
+
 [![Kliknij by otworzyć w pełnym wymiarze](http://i.imgur.com/76K1rHl.png)](http://i.imgur.com/76K1rHl.png)
 
 ***
@@ -8,8 +10,8 @@ Wtyczka do przegladarki Chrome która usuwa nieprawdziwe komentarze botów oraz 
 ### Linki
 * [Przykłady niechcianych komentarzy które są usuwane](https://gist.github.com/Wruczek/ce5025adc07e34fdd164)
 * [Instrukcja instalacji wtyczki](https://github.com/Wruczek/FakeCommentsHider/wiki/Instalacja)
-* [Wtyczka w Chrome Store: COMMING SOON](#)
-* [Zgłaszanie błędów, zapytania, zgłaszanie profili botów do zbanowania itp.](https://github.com/Wruczek/FakeCommentsHider/issues)
+* <strike>[Wtyczka w Chrome Store: COMMING SOON](#)</strike>
+* <strike>[Zgłaszanie błędów, zapytania, zgłaszanie profili botów do zbanowania itp.](https://github.com/Wruczek/FakeCommentsHider/issues)</strike>
 
 ### Wspieranie kanały
 
@@ -26,10 +28,13 @@ Wtyczka działa na całym YouTube, ale dodatkowo chronione są kanały gdzie spa
 
 Próbuje objąć ochroną jak najwięcej polskich kanałów, jednak jest to ciężkie do zrobienia. Możesz mi pomóc przesyłając kanały ka których grasują takie boty.
 
+<strike>
 ### ToDo
 - [ ] Wysłanie wtyczki do Chrome Web Store
 - [ ] Automatyczne zgłaszanie za spam przy ukrywaniu komentarza
 - [ ] Wersja dla Firefoxa
+
+</strike>
 
 ### Dotacja
 
